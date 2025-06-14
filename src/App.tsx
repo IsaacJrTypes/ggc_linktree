@@ -24,9 +24,10 @@ function App() {
     {
       id: 'register',
       icon: Bot,
-      title: 'Register Now',
-      description: 'Secure your spot at the robot revolution',
-      color: 'from-[#93cab0] to-[#66bcb8]'
+      title: 'GeekGirlCon 2025',
+      description: 'Geek out at this year\'s convention',
+      color: 'from-[#93cab0] to-[#66bcb8]',
+      href:'https://geekgirlcon.com/'
     },
     {
       id: 'schedule',
@@ -127,6 +128,7 @@ function App() {
                 }`}
                 onMouseEnter={() => setIsHovered(item.id)}
                 onMouseLeave={() => setIsHovered(null)}
+                onClick={() => item.href && window.open(item.href, '_blank')}
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
