@@ -18,14 +18,7 @@ import {
 } from 'lucide-react';
 
 function App() {
-  const [email, setEmail] = useState('');
   const [isHovered, setIsHovered] = useState<string | null>(null);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Newsletter signup:', email);
-    setEmail('');
-  };
 
   const linkItems = [
     {
