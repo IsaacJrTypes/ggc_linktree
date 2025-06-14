@@ -103,15 +103,15 @@ function App() {
           </div>
           
           <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-[#93cab0] to-[#66bcb8] bg-clip-text text-transparent">
-            RoboCon 2025
+            GeekGirlCon 2025
           </h1>
           
           <p className="text-gray-300 mb-2 text-lg">
-            Celebrating innovation in robotics and AI
+            Celebrating women in technology, gaming, and geek culture
           </p>
           
           <p className="text-[#93cab0] font-medium">
-            April 20-22, 2025 • Silicon Valley, CA
+            November 8 & 9, 2025 • Seattle, WA
           </p>
         </div>
 
